@@ -16,5 +16,5 @@ index.use("/api/auth", require("./routes/auth"));
 index.use("/api/notes", require("./routes/notes"));
 
 index.listen(port, () => {
-  console.log(`Server is running on - http://localhost:${port}`);
+  console.log(`iNotebook backend is running on - http://localhost:${port}`);
 });
